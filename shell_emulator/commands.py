@@ -89,6 +89,10 @@ class Commands:
         except Exception as e:
             raise CommandError(str(e))
 
+    def help(self, args: List[str]) -> str:
+        commands = sorted(list(COMMAND_MAP.keys()) + ['exit'])
+        return 'Available commands: ' + ', '.join(commands)
+
 COMMAND_MAP = {
     'ls': Commands.ls,
     'cd': Commands.cd,
@@ -97,4 +101,5 @@ COMMAND_MAP = {
     'head': Commands.head,
     'touch': Commands.touch,
     'mkdir': Commands.mkdir,
+    'help': Commands.help,
 }
