@@ -30,4 +30,5 @@ python -m shell_emulator.main --vfs vfs.json --script start_script.txt
 
 - `ls`, `cd`, `exit`
 - `history`, `cal`, `head`
-- `touch`, `mkdir`
+- `touch`, `mkdir`, `help`
+
