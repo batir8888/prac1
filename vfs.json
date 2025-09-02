@@ -1,0 +1,7 @@
+{
+  "readme.txt": "This is a sample file in VFS\nSecond line",
+  "docs": {
+    "manual.txt": "Manual line 1\nManual line 2",
+    "images": {}
+  }
+}

@@ -1,0 +1,13 @@
+ls
+cd docs
+ls
+head manual.txt
+cd ..
+cd missing
+mkdir newdir
+ls
+history
+cal 1 2024
+touch file.txt
+ls
+exit
